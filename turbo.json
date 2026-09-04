@@ -9,6 +9,8 @@
       "outputs": [
         ".next/**",
         "!.next/cache/**",
+        ".vercel/**",
+        ".vercel/output/**",
         "**/generated/**",
         "storybook-static/**",
         ".react-email/**",
