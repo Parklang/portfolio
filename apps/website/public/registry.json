@@ -1,6 +1,6 @@
 {
-  "name": "srisomanaath",
-  "homepage": "https://srisomanaath.in",
+  "name": "huyhoang",
+  "homepage": "https://huyhoang-portfolio.vercel.app",
   "items": [
     {
       "name": "index",
@@ -346,7 +346,7 @@
       "name": "utils",
       "type": "registry:lib",
       "title": "Utility Functions",
-      "author": "SriSomanaath <govindalapudisrinath@gmail.com>",
+      "author": "Parklang <huyhoanglnqk38bo@gmail.com>",
       "dependencies": [
         "clsx",
         "tailwind-merge"
