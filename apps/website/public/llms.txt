@@ -3,10 +3,10 @@
 > Lập trình viên Full-Stack đam mê xây dựng các sản phẩm web hiệu năng cao, tối ưu trải nghiệm người dùng. Chia sẻ kiến thức về kiến trúc phần mềm, công nghệ web hiện đại và hành trình phát triển sự nghiệp.
 
 
-- [About](https://huyhoang-portfolio.vercel.app/me/about.md): A quick intro to me, my tech stack, and how to connect.
-- [Experience](https://huyhoang-portfolio.vercel.app/me/experience.md): Highlights from my career and key roles I've taken on.
-- [Craft](https://huyhoang-portfolio.vercel.app/me/craft.md): A collection of my work.
-- [Bookmarks](https://huyhoang-portfolio.vercel.app/me/bookmarks.md): Bookmarks from my collections.
+- [About](https://portfolio-website-six-opal-96.vercel.app/me/about.md): A quick intro to me, my tech stack, and how to connect.
+- [Experience](https://portfolio-website-six-opal-96.vercel.app/me/experience.md): Highlights from my career and key roles I've taken on.
+- [Craft](https://portfolio-website-six-opal-96.vercel.app/me/craft.md): A collection of my work.
+- [Bookmarks](https://portfolio-website-six-opal-96.vercel.app/me/bookmarks.md): Bookmarks from my collections.
 
 ## Craft
 
@@ -30,13 +30,13 @@ This file provides LLM-friendly entry points to Crafts
 
 ## Components
 
-- [Book](https://huyhoang-portfolio.vercel.app/craft/book): A book component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Game of Life](https://huyhoang-portfolio.vercel.app/craft/game-of-life): A game of life component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Magical Mouse](https://huyhoang-portfolio.vercel.app/craft/magical-mouse): A magical mouse component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Modern Progress](https://huyhoang-portfolio.vercel.app/craft/modern-progress): A modern progress component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Pixel Icon](https://huyhoang-portfolio.vercel.app/craft/pixel-icon): A pixel icon component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [Split Text Effect](https://huyhoang-portfolio.vercel.app/craft/split-text-effect): A split text effect component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
-- [View Magnifier](https://huyhoang-portfolio.vercel.app/craft/view-magnifier): A view magnifier component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Book](https://portfolio-website-six-opal-96.vercel.app/craft/book): A book component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Game of Life](https://portfolio-website-six-opal-96.vercel.app/craft/game-of-life): A game of life component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Magical Mouse](https://portfolio-website-six-opal-96.vercel.app/craft/magical-mouse): A magical mouse component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Modern Progress](https://portfolio-website-six-opal-96.vercel.app/craft/modern-progress): A modern progress component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Pixel Icon](https://portfolio-website-six-opal-96.vercel.app/craft/pixel-icon): A pixel icon component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [Split Text Effect](https://portfolio-website-six-opal-96.vercel.app/craft/split-text-effect): A split text effect component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
+- [View Magnifier](https://portfolio-website-six-opal-96.vercel.app/craft/view-magnifier): A view magnifier component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.
 
 ## Examples
 
@@ -56,4 +56,4 @@ This file provides LLM-friendly entry points to Crafts
 ## Optional
 
 - [Repository](https://github.com/Parklang/portfolio): Source code and issues
-- [Sitemap](https://huyhoang-portfolio.vercel.app/sitemap.xml): Indexable pages
+- [Sitemap](https://portfolio-website-six-opal-96.vercel.app/sitemap.xml): Indexable pages

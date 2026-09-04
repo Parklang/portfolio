@@ -32,7 +32,7 @@ const USER: User = {
   lastName: 'Nguyễn',
   name: 'Huy Hoàng',
   email: 'huyhoanglnqk38bo@gmail.com',
-  domain: 'huyhoang-portfolio.vercel.app',
+  domain: 'portfolio-website-six-opal-96.vercel.app',
   jobTitle: 'Full-Stack Developer',
   username: 'Parklang',
   tagline: 'Huy Hoàng — Lập trình viên đam mê xây dựng sản phẩm web hiệu năng cao',
