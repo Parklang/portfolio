@@ -88,6 +88,20 @@ let nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/craft',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/craft/:slug*',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {
