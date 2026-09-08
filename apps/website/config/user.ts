@@ -33,13 +33,13 @@ const USER: User = {
   name: 'Huy Hoàng',
   email: 'huyhoanglnqk38bo@gmail.com',
   domain: 'portfolio-website-six-opal-96.vercel.app',
-  jobTitle: 'Full-Stack Developer',
+  jobTitle: 'Software Engineer & IT Support Specialist',
   username: 'Parklang',
-  tagline: 'Huy Hoàng — Lập trình viên đam mê xây dựng sản phẩm web hiệu năng cao',
+  tagline: 'Huy Hoàng — Kỹ sư phần mềm, hỗ trợ hệ thống & vận hành IT',
   twitterHandle: '',
   location: 'TP. Hồ Chí Minh, Việt Nam',
   description:
-    'Lập trình viên Full-Stack đam mê xây dựng các sản phẩm web hiệu năng cao, tối ưu trải nghiệm người dùng. Chia sẻ kiến thức về kiến trúc phần mềm, công nghệ web hiện đại và hành trình phát triển sự nghiệp.',
+    'Kỹ sư phần mềm với kinh nghiệm phát triển ứng dụng web và hỗ trợ hệ thống IT. Có khả năng phân tích sự cố, tối ưu hạ tầng kỹ thuật và đảm bảo hệ thống vận hành ổn định.',
   namePronunciationUrl: '',
   social: {
     twitter: '',
@@ -48,10 +48,10 @@ const USER: User = {
     bluesky: '',
   },
   flipSentences: [
-    'Xây dựng sản phẩm web hiệu năng cao.',
-    'Full-Stack Development & Software Engineering.',
-    'Tối ưu trải nghiệm người dùng.',
-    'Clean code, scalable architecture.',
+    'Software Development & System Engineering.',
+    'IT Support & Technical Troubleshooting.',
+    'Network, Infrastructure & Cloud Operations.',
+    'Automation, Scripting & DevOps.',
     'Đam mê công nghệ, không ngừng học hỏi.',
   ],
   image: {

@@ -67,14 +67,14 @@ export default async function Page() {
           <RevealOnLoad delay={0.15} duration={0.5}>
             <div className="mt-6 space-y-3 text-foreground/70">
               <p className="leading-relaxed">
-                Xin chào! Mình là Huy Hoàng — một lập trình viên Full-Stack đam mê
-                xây dựng các sản phẩm web hiệu năng cao, tối ưu trải nghiệm
-                người dùng và kiến trúc phần mềm sạch, dễ mở rộng.
+                Xin chào! Mình là Huy Hoàng — kỹ sư phần mềm với nền tảng phát triển
+                ứng dụng web và kinh nghiệm hỗ trợ hệ thống IT. Mình có khả năng
+                phân tích sự cố kỹ thuật, vận hành hạ tầng và xây dựng giải pháp tự động hoá.
               </p>
               <p className="leading-relaxed">
-                Mình tập trung vào việc phát triển ứng dụng web end-to-end,
-                từ frontend React/Next.js đến backend Node.js/API, với sự
-                quan tâm đặc biệt đến performance, clean code và developer experience.
+                Dù đó là triển khai ứng dụng, xử lý incident, quản lý server hay
+                tối ưu quy trình vận hành — mình luôn tiếp cận với tư duy
+                phần mềm: có hệ thống, sạch sẽ và đo lường được.
               </p>
             </div>
           </RevealOnLoad>
@@ -84,10 +84,10 @@ export default async function Page() {
             <SkillsVenn
               profileImage={USER.image.profile}
               skills={{
-                top: 'Frontend Development',
-                left: 'Backend & APIs',
-                right: 'DevOps & Cloud',
-                bottom: 'Software Architecture\n& System Design',
+                top: 'Software Development',
+                left: 'IT Support & Operations',
+                right: 'Cloud & Infrastructure',
+                bottom: 'Automation\n& Scripting',
               }}
               className="mt-8"
             />
