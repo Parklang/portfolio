@@ -8,14 +8,12 @@ import { USER } from '@/config/user';
 import { GitHubContribution } from '@/features/home/components/github-contribution';
 import Info from '@/features/home/components/info';
 import { Experiences } from '@/features/home/components/experiences';
-import { Projects } from '@/features/home/components/projects';
 import { Testimonials } from '@/features/home/components/testimonials';
 import { WordmarkFooter } from '@/components/wordmark-footer';
 import { createOgImage } from '@/lib/createOgImage';
 import { JsonLd, Organization, WithContext } from '@/lib/seo/json-ld';
 import { createMetadata } from '@/lib/seo/metadata';
 import type { Metadata } from 'next/types';
-import { Suspense } from 'react';
 
 // Allow ISR – GitHub repos are revalidated every hour
 export const revalidate = 3600;
@@ -67,14 +65,13 @@ export default async function Page() {
           <RevealOnLoad delay={0.15} duration={0.5}>
             <div className="mt-6 space-y-3 text-foreground/70">
               <p className="leading-relaxed">
-                Xin chào! Mình là Huy Hoàng — kỹ sư phần mềm với nền tảng phát triển
-                ứng dụng web và kinh nghiệm hỗ trợ hệ thống IT. Mình có khả năng
-                phân tích sự cố kỹ thuật, vận hành hạ tầng và xây dựng giải pháp tự động hoá.
+                IT professional with a background in software development, system support,
+                and cloud operations. I help teams keep systems running smoothly — from
+                diagnosing technical issues to deploying and maintaining web applications.
               </p>
-              <p className="leading-relaxed">
-                Dù đó là triển khai ứng dụng, xử lý incident, quản lý server hay
-                tối ưu quy trình vận hành — mình luôn tiếp cận với tư duy
-                phần mềm: có hệ thống, sạch sẽ và đo lường được.
+              <p className="leading-relaxed text-sm">
+                Ứng dụng nền tảng lập trình vào việc hỗ trợ kỹ thuật, vận hành hệ thống
+                và giải quyết sự cố — làm việc hiệu quả cả độc lập lẫn theo nhóm.
               </p>
             </div>
           </RevealOnLoad>
@@ -108,29 +105,6 @@ export default async function Page() {
           <GitHubContribution />
         </Section>
 
-        <Separator />
-
-        {/* Projects Section */}
-        <Section>
-          <Suspense
-            fallback={
-              <div className="space-y-6">
-                <div className="h-4 w-16 animate-pulse rounded bg-muted" />
-                {Array.from({ length: 4 }).map((_, i) => (
-                  <div key={i} className="flex items-start gap-4">
-                    <div className="size-10 shrink-0 animate-pulse rounded-lg bg-muted" />
-                    <div className="flex-1 space-y-2 pt-1">
-                      <div className="h-4 w-32 animate-pulse rounded bg-muted" />
-                      <div className="h-3 w-48 animate-pulse rounded bg-muted" />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            }
-          >
-            <Projects />
-          </Suspense>
-        </Section>
 
         <Separator />
 
