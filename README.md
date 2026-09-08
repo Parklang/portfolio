@@ -51,11 +51,7 @@ Each component is well-documented through the Blog, featuring:
 
 Please refer to the [Development Guide](./DEVELOPMENT.md) for more details.
 
-## License
 
-Licensed under the [MIT license](./LICENSE).
-
-You're free to use my code! Just make sure to <ins>remove all my personal information</ins> before publishing your website. It's awesome to see my code being useful to someone!
 
 ## Acknowledgments
 
