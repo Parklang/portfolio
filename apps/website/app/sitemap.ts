@@ -6,7 +6,6 @@ import type { MetadataRoute } from 'next';
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = [
     '/',
-    '/blog',
     '/cal',
   ].concat(ENABLE_BUDDY ? ['/buddy'] : []);
 
