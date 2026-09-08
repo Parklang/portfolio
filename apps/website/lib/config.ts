@@ -1,11 +1,10 @@
 import { Icons } from '@/components/icons';
-import { SOURCE_CODE_GITHUB_URL } from '@/config/site';
+
 import { USER } from '@/config/user';
 
 export const DockConfig = {
   navbar: [
     { href: '/', icon: Icons.home, label: 'Home' },
-    { href: '/craft', icon: Icons.craft, label: 'Craft', new: true },
     // { href: '/guestbook', icon: Icons.guestbook, label: 'Guestbook' },
     { href: '/blog', icon: Icons.bookmark, label: 'Blog' },
     { href: '/cal', icon: Icons.calendar, label: 'Book a Meeting' },
@@ -15,7 +14,7 @@ export const DockConfig = {
     social: {
       GitHub: {
         name: 'GitHub',
-        url: SOURCE_CODE_GITHUB_URL,
+        url: USER.social.github,
         icon: Icons.github,
       },
       LinkedIn: {

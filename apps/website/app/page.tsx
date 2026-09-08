@@ -15,9 +15,10 @@ import { createOgImage } from '@/lib/createOgImage';
 import { JsonLd, Organization, WithContext } from '@/lib/seo/json-ld';
 import { createMetadata } from '@/lib/seo/metadata';
 import type { Metadata } from 'next/types';
+import { Suspense } from 'react';
 
-// Force static generation at build time
-export const dynamic = 'force-static';
+// Allow ISR – GitHub repos are revalidated every hour
+export const revalidate = 3600;
 
 export async function generateMetadata(): Promise<Metadata> {
   const title = USER.tagline;
@@ -111,7 +112,24 @@ export default async function Page() {
 
         {/* Projects Section */}
         <Section>
-          <Projects />
+          <Suspense
+            fallback={
+              <div className="space-y-6">
+                <div className="h-4 w-16 animate-pulse rounded bg-muted" />
+                {Array.from({ length: 4 }).map((_, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <div className="size-10 shrink-0 animate-pulse rounded-lg bg-muted" />
+                    <div className="flex-1 space-y-2 pt-1">
+                      <div className="h-4 w-32 animate-pulse rounded bg-muted" />
+                      <div className="h-3 w-48 animate-pulse rounded bg-muted" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            }
+          >
+            <Projects />
+          </Suspense>
         </Section>
 
         <Separator />
